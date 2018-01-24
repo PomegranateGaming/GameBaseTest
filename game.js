@@ -1,7 +1,9 @@
 function clear() {
 config.background();
 }
-config.startup();
+// set variables
+var x = 0;
+var y = 0;
 function char() {
 config.gamePlay();
 }
