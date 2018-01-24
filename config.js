@@ -3,7 +3,16 @@ var config = {
 background: function() {ctx.fillStyle="white";canvasJS.rectangle(0,0,500,500);},
 gameClick: function(e) {},
 gameKey: function(e) {
-
+if (e.keyCode === 37) {
+    x--;
+    } else if (e.keyCode === 38) {
+      y--;
+} else if (e.keyCode === 39) {
+          x++;     
+               
+           } else if (e.keyCode === 40) {
+    y++;
+    }
 
 },
 gameTouch: function(e) {},
