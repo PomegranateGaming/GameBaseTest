@@ -16,5 +16,9 @@ if (e.keyCode === 37) {
 
 },
 gameTouch: function(e) {},
-gamePlay: function() {}
+gamePlay: function() {
+  ctx.fillStyle = "black";
+canvasJS.rectangle(x,y,50,50);
+
+}
 };
