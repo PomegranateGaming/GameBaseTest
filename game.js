@@ -3,7 +3,6 @@ config.background();
 }
 // set variables
 var code;
-var arr = [];
 var key = false;
 var x = 0;
 var y = 0;
@@ -33,12 +32,10 @@ window.addEventListener('click', function (e) {
             config.gameClick(e);
 });
 
-window.addEventListener('keyup', function (e) {
+window.addEventListener('keyup', function () {
                 
                 key = false;
-  arr.pop(arr.indexOf(e.keyCode));
  
         });
 
 setInterval(function(){clear();char();},10);
-
